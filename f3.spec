@@ -7,6 +7,9 @@ License:	GPLv3
 URL:		http://oss.digirati.com.br/%{name}/
 Source0:        https://github.com/AltraMayor/f3/archive/v%{version}.tar.gz
 
+BuildRequires: make
+BuildRequires: gcc
+
 %description
 F3 is a utility to test for fake flash drives and cards. It is a Free
 Software alternative to h2testw.  f3write will fill the unused part of
